@@ -1,103 +1,107 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" type="image/x-icon" href="https://cdn.simplecast.com/images/0acb55cf-7c6b-4bc5-8696-0205845e370e/235d06bc-ff96-44a9-82d1-a00cc0e34f67/favicon.jpg" />
-        <title>Artisans Sverige</title>
-	<!-- 
-	https://cdn.simplecast.com/images/0acb55cf-7c6b-4bc5-8696-0205845e370e/235d06bc-ff96-44a9-82d1-a00cc0e34f67/favicon.jpg 
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.simplecast.com/images/0acb55cf-7c6b-4bc5-8696-0205845e370e/235d06bc-ff96-44a9-82d1-a00cc0e34f67/favicon.jpg" />
+    <title>Artisans Sverige</title>
+    <!--
+	https://cdn.simplecast.com/images/0acb55cf-7c6b-4bc5-8696-0205845e370e/235d06bc-ff96-44a9-82d1-a00cc0e34f67/favicon.jpg
 	-->
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+    <!-- Styles -->
+    <style>
+        html,
+        body {
+            background-color: #fff;
+            color: #636b6f;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 200;
+            height: 100vh;
+            margin: 0;
+        }
 
-            .full-height {
-                height: 100vh;
-            }
+        .artisans {
+            color: #e6324d;
+        }
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+        .full-height {
+            height: 100vh;
+        }
 
-            .position-ref {
-                position: relative;
-            }
+        .flex-center {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
+        .position-ref {
+            position: relative;
+        }
 
-            .content {
-                text-align: center;
-            }
+        .top-right {
+            position: absolute;
+            right: 10px;
+            top: 18px;
+        }
 
-            .title {
-                font-size: 84px;
-            }
+        .content {
+            text-align: center;
+        }
 
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
+        .title {
+            font-size: 84px;
+        }
 
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
+        .links>a {
+            color: #636b6f;
+            padding: 0 25px;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
+        .m-b-md {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-center position-ref full-height">
+        @if (Route::has('login'))
+        <div class="top-right links">
+            @auth
+            <a href="{{ url('/home') }}">Home</a>
+            @else
+            <a href="{{ route('login') }}">Login</a>
+
+            @if (Route::has('register'))
+            <a href="{{ route('register') }}">Register</a>
             @endif
+            @endauth
+        </div>
+        @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    <span style="color: #e6324d;">Artisans</span> <span>Sverige</span>
-                </div>
-                <!-- div class="title">
-                    <img src="/images/artisans.png" />
-                </div -->
-
-		<div class="links">
-                    <!-- a href="https://laravel.com/docs">Laravels Docs</a -->
-		    <a href="https://events.artisans.se">Events</a>
-                    <a href="https://paste.artisans.se">Pastebin</a>
-                    <a href="https://podcast.artisans.se">Podcast</a>
-                    <a href="http://bit.ly/laravelseslack">Slack</a>
-                    <!-- a href="https://www.facebook.com/groups/laravel.se">Laravel Sverige (Facebook)</a -->
-                </div>
+        <div class="content">
+            <div class="title m-b-md">
+                <span class="artisans">Artisans</span> <span>Sverige</span>
+            </div>
+            <div class="links">
+                <!-- a href="https://laravel.com/docs">Laravels Docs</a -->
+                <a href="https://events.artisans.se">Events</a>
+                <a href="https://paste.artisans.se">Pastebin</a>
+                <a href="https://podcast.artisans.se">Podcast</a>
+                <a href="http://bit.ly/laravelseslack">Slack</a>
+                <!-- a href="https://www.facebook.com/groups/laravel.se">Laravel Sverige (Facebook)</a -->
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
