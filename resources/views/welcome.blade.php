@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="https://cdn.simplecast.com/images/0acb55cf-7c6b-4bc5-8696-0205845e370e/235d06bc-ff96-44a9-82d1-a00cc0e34f67/favicon.jpg" />
     <title>Artisans Sverige</title>
-    <!--
-	https://cdn.simplecast.com/images/0acb55cf-7c6b-4bc5-8696-0205845e370e/235d06bc-ff96-44a9-82d1-a00cc0e34f67/favicon.jpg
-	-->
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
