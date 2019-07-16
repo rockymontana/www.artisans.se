@@ -48,6 +48,8 @@
 
         .content {
             text-align: center;
+            display: flex;
+            flex-direction: column;
         }
 
         .title {
@@ -98,7 +100,14 @@
                 <a href="http://bit.ly/laravelseslack">Slack</a>
                 <!-- a href="https://www.facebook.com/groups/laravel.se">Laravel Sverige (Facebook)</a -->
             </div>
+            <div class="links" style="margin-top: 80px; display: flex; align-items: center; justify-content: center; flex-direction: column">
+                <span style="font-weight: bold">Sponsorer:</span>
+                <a href="https://www.beebyte.se" style="margin-top: 20px">
+                    <img src="https://cdn.beebyte.se/wp-content/uploads/2018/01/beebyte_logo_web2.png" height="30px" />
+                </a>
+            </div>
         </div>
+
     </div>
 </body>
 
