@@ -60,3 +60,10 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+
+@font-face {
+    font-family: 'ONE DAY Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ONE DAY Regular'), url('font/ONEDAY.woff') format('woff');
+}

@@ -14,6 +14,10 @@
         <link href="{{ mix('css/app.css') }}" rel="stylesheet">
         <style>
             .artisans {
+                font-family: "ONE DAY", Nunito, sans-serif;
+            }
+
+            .artisans-red {
                 color: #e6324d;
             }
         </style>
@@ -21,8 +25,8 @@
     <body class="bg-gray-100 h-screen antialiased leading-none">
         <div class="min-h-screen flex flex-col items-center justify-center">
             <div>
-                <h1 class="text-gray-600 text-center font-light tracking-wider text-5xl mb-6">
-                    <span class="artisans">Artisans</span> <span>Sverige</span>
+                <h1 class="text-gray-600 text-center font-light tracking-wider text-6xl mb-6 artisans">
+                    <span class="artisans-red">Artisans</span> <span>Sverige</span>
                 </h1>
                 <ul class="list-reset text-center">
                     <li class="inline pr-8">
