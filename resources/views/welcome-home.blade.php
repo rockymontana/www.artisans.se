@@ -55,6 +55,13 @@
                     </li>
                 </ul>
             </div>
+            <div class="mt-20">
+                <h2 class="text-2xl pb-4">Taylor Otwells keynote på <strong class="font-bold">Laracon US 2019</strong>
+                </h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XsPeWjKAUt0" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
             <div class="my-16 text-center">
                 <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script>
                 <script type='text/javascript'>kofiwidget2.init('Bjud oss på Ko-fi', '#e6324d', 'R6R1YY7I');
