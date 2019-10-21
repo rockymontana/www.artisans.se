@@ -56,11 +56,9 @@
                 </ul>
             </div>
             <div class="mt-20">
-                <h2 class="text-2xl pb-4">Taylor Otwells keynote på <strong class="font-bold">Laracon US 2019</strong>
-                </h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/XsPeWjKAUt0" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                <p class="text-2xl pb-4">Lyssna på senaste avsnittet av  <strong class="font-bold artisans">Artisans Podden</strong>
+                </p>
+                <iframe src='https://share.transistor.fm/e/a06ccfce/dark' width='100%' height='180' frameborder='0' scrolling='no' seamless='true' style='width:100%; height:180px;'></iframe>
             </div>
             <div class="my-16 text-center">
                 <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script>
