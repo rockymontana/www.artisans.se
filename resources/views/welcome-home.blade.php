@@ -48,7 +48,7 @@
                         </a>
                     </li>
                     <li class="inline pr-8">
-                        <a href="bit.ly/artisansseslack"
+                        <a href="https://bit.ly/artisansseslack"
                            class="no-underline hover:underline text-sm font-normal text-teal-800 uppercase"
                            title="Nova">Slacken
                         </a>
