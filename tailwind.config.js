@@ -1,5 +1,3 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     content: [
@@ -9,8 +7,11 @@ module.exports = {
     ],
     theme: {
         extend: {
+            colors: {
+                artisan: '#e6324d'
+            },
             fontFamily: {
-                sans: ['ONE DAY', 'Nunito', ...defaultTheme.fontFamily.sans],
+                artisan: ['ONE DAY', 'Nunito', 'sans-serif'],
             },
         },
     }
