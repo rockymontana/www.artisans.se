@@ -69,7 +69,7 @@
         <ul class="mt-5">
             <li>
                 <a href="https://www.beebyte.se">
-                    <img src="https://cdn.beebyte.se/wp-content/uploads/2018/01/beebyte_logo_web2.png" alt="beebyte logotype" class="w-32 my-6" />
+                    <img src="{{ asset('images/sponsors/beebyte.png') }}" alt="beebyte logotype" class="w-32 my-6" />
                 </a>
             </li>
         </ul>
